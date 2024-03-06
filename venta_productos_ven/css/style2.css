@@ -1,0 +1,27 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center; /* Centrar el contenido de la tabla */
+}
+
+.table td, .table th {
+    padding: 8px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    color: #333; /* Color del texto gris oscuro */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f5f5f5; /* Fondo gris muy claro para filas impares */
+}
+
+.table thead th {
+    background-color: #f0f0f0; /* Fondo gris claro para encabezado */
+    color: #333; /* Texto gris oscuro para encabezado */
+}
+
+.table tbody tr:hover {
+    background-color: #e0e0e0; /* Cambio de color al pasar el ratón a un gris más claro */
+}
+
+
+
